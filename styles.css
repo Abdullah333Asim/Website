@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    margin: 0.5em 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;
+}
+
+/* Mid Section for Clothes */
+.mid-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #f4f4f4;
+}
+
+.clothes-item {
+    text-align: center;
+    width: 30%;
+}
+
+.clothes-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footer p {
+    margin: 0.5em 0;
+}
+
+.logo img{
+    height:50px;
+    width:20px;
+}
